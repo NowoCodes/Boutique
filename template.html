@@ -1,0 +1,214 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shaunta's Boutique</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <a class="navbar-brand ml-5" href="index.php">Shaunta's Boutique</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <!--            Menu Items-->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            Men<span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="#">Shirts</a>
+                            <a class="dropdown-item" href="#">Pants</a>
+                            <a class="dropdown-item" href="#">Shoes</a>
+                            <a class="dropdown-item" href="#">Accessories</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Header-->
+    <div id="headerWrapper">
+        <div id="back-flower"></div>
+        <div id="logo-text"></div>
+        <div id="fore-flower"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--        Left Side Bar-->
+            <div class="col-2">Left Side Bar</div>
+
+            <!--        Main Content-->
+            <div class="col-8 text-center">
+                <h2 class="text-center m-3">Feature Products</h2>
+                <div class="row">
+                <div class="col-md-3">
+                <h4>Levis Jeans</h4>
+                <img src="images/products/men4.png" alt="Levis Jeans" class="img-fluid">
+                <p class="list-price text-danger">List Price: <s>$54.99</s></p>
+                <p class="price">Our Price: $34.99</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                    Details
+                </button>
+                </div>
+                <div class="col-md-3">
+                    <h4>Women's Shirt</h4>
+                    <img src="images/products/women7.png" alt="Women's Shirt" class="img-fluid">
+                    <p class="list-price text-danger">List Price: <s>45.99</s></p>
+                    <p class="price">Our Price: 29.99</p>
+                    <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <h4>Hollister Shirt</h4>
+                    <img src="images/products/men1.png" alt="Hollister Shirt" class="img-fluid">
+                    <p class="list-price text-danger">List Price: <s>$25.99</s></p>
+                    <p class="price">Our Price: $19.99</p>
+                    <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <h4>Fancy Shoes</h4>
+                    <img src="images/products/women6.png" alt="Fancy Shoes" class="img-fluid">
+                    <p class="list-price text-danger">List Price: <s>$69.99</s></p>
+                    <p class="price">Our Price: $49.99</p>
+                    <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>Boys Hoodie</h4>
+                        <img src="images/products/boys1.png" alt="Boys Hoodie" class="img-fluid">
+                        <p class="list-price text-danger">List Price: <s>24.99</s></p>
+                        <p class="price">Our Price: $18.99</p>
+                        <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Girls Dress</h4>
+                        <img src="images/products/girls3.png" alt="Girls Dress" class="img-fluid">
+                        <p class="list-price text-danger">List Price: <s>$34.99</s></p>
+                        <p class="price">Our Price: $22.99</p>
+                        <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Women's Skirt</h4>
+                        <img src="images/products/women3.png" alt="Women's Skirt" class="img-fluid">
+                        <p class="list-price text-danger">List Price: <s>$54.99</s></p>
+                        <p class="price">Our Price: $19.99</p>
+                        <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Purse</h4>
+                        <img src="images/products/women5.png" alt="Levis Jeans" class="img-fluid">
+                        <p class="list-price text-danger">List Price: <s>$49.99</s></p>
+                        <p class="price">Our Price: $39.99</p>
+                        <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+                        Details
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--        Right Side Bar-->
+            <div class="col-2">Right Side Bar</div>
+
+            <!--      Details Modal -->
+            <div class="modal fade details-1" id="details-1" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-center w-100">Levis Jeans</h4>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/products/men4.png" alt="Levis Jeans" class="mx-auto pt-5 d-block img-fluid">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Details</h4>
+                                        <p>These jeans are amazing! They are straight leg, fit great and sexy. Get a pair while they last.</p>
+                                        <hr>
+                                        <p>Price: $34.99</p>
+                                        <p>Brand: Levis</p>
+                                        <form action="add_cart.php" method="POST">
+                                            <div class="form-group">
+                                                <label for="quantity" class="col-form-label">Quantity</label>
+                                                <input type="text" class="form-control w-25" id="quantity" name="quantity">
+                                                <p>Available: 3</p>
+                                                <label for="size" class="col-form-label">Size</label>
+                                                <select name="size" id="size" class="form-control">
+                                                    <option value=""></option>
+                                                    <option value="28">28</option>
+                                                    <option value="32">32</option>
+                                                    <option value="36">36</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-warning btn-lg" type="submit"><span class="fa fa-shopping-cart"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <footer class="text-center" id="footer">
+                &copy; Copyright 2013 -
+                <?php echo date('Y'); ?> Shaunta's Boutique
+            </footer>
+
+            <script>
+                jQuery(window).scroll(function() {
+                    var vscroll = jQuery(this).scrollTop();
+                    jQuery('#logo-text').css({
+                        "transform": "translate(0px, " + vscroll / 2 + "px)"
+                    });
+
+                    var vscroll = jQuery(this).scrollTop();
+                    jQuery('#back-flower').css({
+                        "transform": "translate(" + vscroll / 5 + "px, -" + vscroll / 12 + "px)"
+                    });
+
+                    var vscroll = jQuery(this).scrollTop();
+                    jQuery('#fore-flower').css({
+                        "transform": "translate(0px, -" + vscroll / 2 + "px)"
+                    });
+                });
+            </script>
+</body>
