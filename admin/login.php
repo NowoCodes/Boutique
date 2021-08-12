@@ -1,5 +1,5 @@
 <?php
-	require_once $_SERVER['DOCUMENT_ROOT'].'/Projects/InProgress/Boutique/core/init.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/core/init.php';
     include 'includes/head.php';
     
 	if (is_logged_in()){

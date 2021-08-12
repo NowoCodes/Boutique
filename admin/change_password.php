@@ -1,5 +1,5 @@
 <?php
-    require_once $_SERVER['DOCUMENT_ROOT'].'/Projects/InProgress/Boutique/core/init.php';
+    require_once $_SERVER['DOCUMENT_ROOT'].'/core/init.php';
     if(!is_logged_in()){
         login_error_redirect();
     }
@@ -78,7 +78,7 @@
         </div>
     </form>
     <div class="clearfix">
-    <p class="float-right"><a href="/Projects/InProgress/Boutique/index.php" alt="home">Visit Site</a></p>
+    <p class="float-right"><a href="/index.php" alt="home">Visit Site</a></p>
     </div>
 </div>
 
